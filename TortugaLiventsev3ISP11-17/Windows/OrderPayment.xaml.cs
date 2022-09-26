@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TortugaLiventsev3ISP11_17
+namespace TortugaLiventsev3ISP11_17.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для OrderPayment.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class OrderPayment : Window
     {
-        public MainWindow()
+        public OrderPayment()
         {
             InitializeComponent();
         }

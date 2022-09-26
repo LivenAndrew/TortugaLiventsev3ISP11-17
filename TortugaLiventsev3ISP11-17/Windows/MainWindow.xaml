@@ -1,0 +1,42 @@
+﻿<Window x:Class="TortugaLiventsev3ISP11_17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17"
+        mc:Ignorable="d"
+        Height="500"
+        Width="700"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Image/fones.jpg" 
+               Grid.RowSpan="5"/>
+
+        <Image Source="/Image/emblema.png" 
+               Grid.RowSpan="2"/>
+
+        <WrapPanel Grid.Row="6"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+
+            <Button x:Name="btnNextWindow"
+                    Content="Начать работу"
+                    Width="200"
+                    Height="40"
+                    FontSize="20"
+                    Margin="10 0" 
+                    Background="#FA4A0C" 
+                    Foreground="White"
+                    Click="btnNextWindow_Click"/>
+
+        </WrapPanel>
+    </Grid>
+</Window>
