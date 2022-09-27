@@ -191,6 +191,28 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\waterpit.png" />
+    <Resource Include="Image\watergas.png" />
+    <Resource Include="Image\zarkoe.png" />
+    <Resource Include="Image\tiramisy.png" />
+    <Resource Include="Image\sprite.jpg" />
+    <Resource Include="Image\ricevegetable.png" />
+    <Resource Include="Image\ratatue.png" />
+    <Resource Include="Image\potatosoev.png" />
+    <Resource Include="Image\potatoefri.jpg" />
+    <Resource Include="Image\pizza.png" />
+    <Resource Include="Image\pasta.png" />
+    <Resource Include="Image\lagman.png" />
+    <Resource Include="Image\image 5.png" />
+    <Resource Include="Image\image 4.png" />
+    <Resource Include="Image\image 3.png" />
+    <Resource Include="Image\image 2.png" />
+    <Resource Include="Image\image 1.png" />
+    <Resource Include="Image\fanta.png" />
+    <Resource Include="Image\cola.png" />
+    <Resource Include="Image\chocolatecake.png" />
+    <Resource Include="Image\cheesecake.png" />
+    <Resource Include="Image\carbonara.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
