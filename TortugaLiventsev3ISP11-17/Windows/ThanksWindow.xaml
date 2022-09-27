@@ -1,0 +1,47 @@
+﻿<Window x:Class="TortugaLiventsev3ISP11_17.Windows.ThanksWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
+        mc:Ignorable="d"
+        Title="ThanksWindow" 
+        Height="500" 
+        Width="700"
+        WindowStartupLocation="CenterScreen">
+    <Grid 
+         Background="#FFFFFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        
+        <Image Source="/Image/fones.jpg" 
+               Grid.RowSpan="5"/>
+
+        <TextBlock
+                   Text="Спасибо, что являетесь нашим ценным клиентом. 
+                   &#xA;Мы надеемся, что наш продукт соответствует вашим ожиданиям. 
+                   &#xA;Дайте нам знать, если у вас есть какие-либо вопросы."
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Foreground="White"
+                   FontSize="15"  
+                   Grid.Column="1"
+                   Grid.Row="2"/>
+
+        <Button x:Name="btnReturntWindow"
+                    Content="Вернуться на главный экран"
+                    Width="280"
+                    Height="70"
+                    FontSize="20" 
+                    Background="#FA4A0C" 
+                    Foreground="White"
+                    Click="btnReturnWindow_Click" 
+                    Grid.Column="1"
+                    Grid.Row="5"/>
+    </Grid>
+</Window>

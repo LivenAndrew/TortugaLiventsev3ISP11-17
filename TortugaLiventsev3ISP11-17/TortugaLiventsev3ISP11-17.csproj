@@ -67,6 +67,12 @@
     <Compile Include="Windows\OrderPayment.xaml.cs">
       <DependentUpon>OrderPayment.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\TableWindow.xaml.cs">
+      <DependentUpon>TableWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ThanksWindow.xaml.cs">
+      <DependentUpon>ThanksWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="Windows\FirstWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -135,6 +141,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\TableWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ThanksWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -191,6 +205,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\Thanks.jpg" />
     <Resource Include="Image\waterpit.png" />
     <Resource Include="Image\watergas.png" />
     <Resource Include="Image\zarkoe.png" />

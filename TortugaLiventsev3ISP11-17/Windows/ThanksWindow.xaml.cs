@@ -15,31 +15,20 @@ using System.Windows.Shapes;
 namespace TortugaLiventsev3ISP11_17.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для OrderPayment.xaml
+    /// Логика взаимодействия для ThanksWindow.xaml
     /// </summary>
-    public partial class OrderPayment : Window
+    public partial class ThanksWindow : Window
     {
-        public OrderPayment()
+        public ThanksWindow()
         {
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, RoutedEventArgs e)
+        private void btnReturnWindow_Click(object sender, RoutedEventArgs e)
         {
-            FirstWindow mainWindow = new FirstWindow();
+            MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
-        }
-
-        private void btnNextWindow_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnNexttWindow_Click(object sender, RoutedEventArgs e)
-        {
-            TableWindow firstWindow = new TableWindow();
-            firstWindow.Show();
         }
     }
 }

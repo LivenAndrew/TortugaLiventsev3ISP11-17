@@ -11,6 +11,10 @@
         WindowStartupLocation="CenterScreen">
     <Grid 
          Background="#FCDFD4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="367*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="2*"/>
@@ -20,12 +24,15 @@
         <TextBlock Text="Вкусная еда для вас"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   FontSize="25"/>
+                   FontSize="25"  
+                   Grid.Column="1"  
+                   Margin="173,5,332.6,3.4"/>
 
         <ListView x:Name="Dishes"
-                  Grid.Row="3"
+                  Grid.Row="2"
                   ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
-                  SelectionChanged="Dishes_SelectionChanged">
+                  SelectionChanged="Dishes_SelectionChanged" 
+                  Grid.ColumnSpan="2" Margin="0,0,-0.4,0.4">
 
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -72,7 +79,7 @@
 
         <TextBlock 
                 Text="Горячие блюда"
-                Margin="30 40 0 0"
+                Margin="30,39.6,0,0.4"
                 HorizontalAlignment="Left"
                 Grid.Row="1"
                 Grid.RowSpan="2"
@@ -80,56 +87,63 @@
 
         <TextBlock 
                 Text="Напитки"
-                Margin="200 40 0 0"
+                Margin="40,39.6,0,0.4"
                 HorizontalAlignment="Left"
                 Grid.Row="1"
                 Grid.RowSpan="2"
-                FontSize="18"/>
+                FontSize="18"
+                Grid.Column="1"/>
 
         <TextBlock 
                 Text="Гарниры"
-                Margin="350 40 0 0"
+                Margin="190,39.6,0,0.4"
                 HorizontalAlignment="Left"
                 Grid.Row="1"
                 Grid.RowSpan="2"
-                FontSize="18"/>
+                FontSize="18" 
+                Grid.Column="1"/>
 
         <TextBlock 
                 Text="Десерты"
-                Margin="500 40 0 0"
+                Margin="340,39.6,0,0.4"
                 HorizontalAlignment="Left"
                 Grid.Row="1"
                 Grid.RowSpan="2"
-                FontSize="18"/>
+                FontSize="18" 
+                Grid.Column="1"/>
 
         <TextBlock 
                 Text="Гарниры"
-                Margin="650 40 0 0"
+                Margin="490,39.6,0,0.4"
                 HorizontalAlignment="Left"
                 Grid.Row="1"
                 Grid.RowSpan="2"
-                FontSize="18"/>
+                FontSize="18"
+                Grid.Column="1"/>
 
         <TextBlock 
                 Text="Пицца"
-                Margin="800 40 0 0"
+                Margin="640,39.6,0,0.4"
                 HorizontalAlignment="Left"
                 Grid.Row="1"
                 Grid.RowSpan="2"
-                FontSize="18"/>
+                FontSize="18" 
+                Grid.Column="1"/>
 
         <WrapPanel 
                    Grid.Row="1" 
                    Grid.RowSpan="1"
                    VerticalAlignment="Center" 
-                   HorizontalAlignment="Center"/>
+                   HorizontalAlignment="Center"
+                   Grid.Column="1"/>
 
         <WrapPanel 
-            Grid.Row="4" 
+            Grid.Row="2" 
             VerticalAlignment="Center"
             HorizontalAlignment="Center" 
             Width="800"
-            Height="36">
+            Height="36"
+            Grid.ColumnSpan="2">
         </WrapPanel>
 
         <Button 

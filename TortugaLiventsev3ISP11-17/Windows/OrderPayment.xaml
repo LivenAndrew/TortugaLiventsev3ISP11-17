@@ -48,13 +48,14 @@
 
         <TextBox x:Name="txtSrc"
                      Width="150"
+                 
                      FontSize="18"
                      Grid.Row="4"
                      Grid.RowSpan="1"
                      Background="#FA4A0C" 
                      Foreground="White"
                      HorizontalAlignment="Right"
-                     TextChanged="txtSrc_TextChanged"/>
+                     TextChanged="txtSr_TextChanged"/>
 
         <TextBlock Text="Итого к оплате:"
                    Grid.Row="4"
@@ -63,14 +64,14 @@
                    HorizontalAlignment="Left"
                    FontSize="25"/>
 
-        <Button x:Name="btnNextWindow"
+        <Button x:Name="btnNexttWindow"
                     Content="Подтвердить"
                     Width="200"
                     Height="40"
                     FontSize="20" 
                     Background="#FA4A0C" 
                     Foreground="White"
-                    Click="btnNextWindow_Click" 
+                    Click="btnNexttWindow_Click" 
                     Grid.Column="1"
                     Grid.Row="5"/>
 
