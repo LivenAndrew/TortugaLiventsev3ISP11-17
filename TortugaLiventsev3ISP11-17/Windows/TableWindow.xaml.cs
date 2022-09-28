@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TortugaLiventsev3ISP11_17.Windows;
 
 namespace TortugaLiventsev3ISP11_17.Windows
 {
@@ -22,6 +23,12 @@ namespace TortugaLiventsev3ISP11_17.Windows
         public TableWindow()
         {
             InitializeComponent();
+        }
+        private void Table_Click(object sender, RoutedEventArgs e)
+        {
+            Menu mainWindow = new Menu();
+            mainWindow.Show();
+            this.Close();
         }
     }
 }

@@ -5,8 +5,88 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
         mc:Ignorable="d"
-        Title="TableWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="TableWindow" 
+        Height="500" 
+        Width="900">
+    <Grid 
+         Background="#FFFFFF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="207*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="712*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Выбор столика"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="25"  
+                   Grid.Column="2"/>
+
+        <Button 
+                x:Name="btnEx"
+                Content="Exit"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                Width="50"
+                Height="30"
+                FontSize="18"
+                Grid.RowSpan="2"
+                Margin="47 42 0 56"
+                Grid.Column="0"
+                Click="btnEx_Click"/>
+
+        <Button
+            x:Name="Table"
+            Grid.Row="2"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/Table1.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Image 
+            Source="/Image/Table2.png"
+            Stretch="Fill"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Grid.Column="1"
+            Grid.Row="2"/>
+
+        <Image 
+                Source="/Image/Table3.png"
+                Stretch="Fill"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Grid.Column="2"
+                Grid.Row="2"/>
+
+        <Image 
+                Source="/Image/Table4.png"
+                Stretch="Fill"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Grid.Column="3"
+                Grid.Row="2"/>
+
+        <Image 
+            Source="/Image/Table5.png"
+            Stretch="Fill"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Grid.Column="4"
+            Grid.Row="2"/>
+
     </Grid>
 </Window>

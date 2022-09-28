@@ -28,8 +28,8 @@ namespace TortugaLiventsev3ISP11_17
 
         private void btnNextWindow_Click(object sender, RoutedEventArgs e)
         {
-            FirstWindow firstWindow = new FirstWindow();
-            firstWindow.Show();
+            TableWindow tableWindow = new TableWindow();
+            tableWindow.Show();
         }
     }
 }

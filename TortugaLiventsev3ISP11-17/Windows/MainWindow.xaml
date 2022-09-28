@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17"
         mc:Ignorable="d"
         Height="500"
-        Width="700"
+        Width="710"
         WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
@@ -15,15 +15,18 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="4*"/>
             <RowDefinition Height="5*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
 
         <Image Source="/Image/fones.jpg" 
-               Grid.RowSpan="5"/>
+               Grid.RowSpan="9"/>
 
         <Image Source="/Image/emblema.png" 
-               Grid.RowSpan="2"/>
+               Grid.RowSpan="4"/>
 
-        <WrapPanel Grid.Row="6"
+        <WrapPanel Grid.Row="7"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center">
 
