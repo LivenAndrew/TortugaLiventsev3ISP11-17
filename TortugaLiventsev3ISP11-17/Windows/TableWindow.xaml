@@ -19,9 +19,9 @@
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="207*"/>
-            <RowDefinition Height="100*"/>
-            <RowDefinition Height="712*"/>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="600*"/>
         </Grid.RowDefinitions>
 
         <TextBlock Text="Выбор столика"
@@ -29,33 +29,12 @@
                    HorizontalAlignment="Center"
                    FontSize="25"  
                    Grid.Column="2"/>
-
-        <Button 
-                x:Name="btnEx"
-                Content="Exit"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Width="50"
-                Height="30"
-                FontSize="18"
-                Grid.RowSpan="2"
-                Margin="47 42 0 56"
-                Grid.Column="0"
-                Click="btnEx_Click"/>
-
-        <Button
-            x:Name="Table"
-            Grid.Row="2"
-            BorderBrush="{x:Null}" 
-            Foreground="{x:Null}" 
-            Background="{x:Null}"
-            Click="Table_Click"
-            Style="{StaticResource MyButtonStyle}">
+       
             <Image 
             Source="/Image/Table1.png"
-                Stretch="Fill"/>
-        </Button>
-
+            Grid.Row="2"
+            Stretch="Fill"/>
+        
         <Image 
             Source="/Image/Table2.png"
             Stretch="Fill"
@@ -87,6 +66,5 @@
             HorizontalAlignment="Center"
             Grid.Column="4"
             Grid.Row="2"/>
-
     </Grid>
 </Window>

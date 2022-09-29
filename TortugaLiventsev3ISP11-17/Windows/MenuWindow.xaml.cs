@@ -11,20 +11,18 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using TortugaLiventsev3ISP11_17.Windows;
 
 namespace TortugaLiventsev3ISP11_17.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для FirstWindow.xaml
+    /// Логика взаимодействия для MenuWindow.xaml
     /// </summary>
-    public partial class FirstWindow : Window
+    public partial class MenuWindow : Window
     {
-        public FirstWindow()
+        public MenuWindow()
         {
             InitializeComponent();
         }
-
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
@@ -47,4 +45,5 @@ namespace TortugaLiventsev3ISP11_17.Windows
 
         }
     }
+
 }

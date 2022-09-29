@@ -11,16 +11,15 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using TortugaLiventsev3ISP11_17.Windows;
 
 namespace TortugaLiventsev3ISP11_17.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для TableWindow.xaml
+    /// Логика взаимодействия для BucketWindow.xaml
     /// </summary>
-    public partial class TableWindow : Window
+    public partial class BucketWindow : Window
     {
-        public TableWindow()
+        public BucketWindow()
         {
             InitializeComponent();
         }
