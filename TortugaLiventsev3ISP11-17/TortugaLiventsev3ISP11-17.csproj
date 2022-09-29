@@ -219,6 +219,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\card.jpg" />
     <Resource Include="Image\table2.PNG" />
     <Resource Include="Image\table1.PNG" />
     <Resource Include="Image\table5.PNG" />

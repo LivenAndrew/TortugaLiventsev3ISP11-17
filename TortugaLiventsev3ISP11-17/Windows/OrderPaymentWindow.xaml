@@ -5,8 +5,55 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
         mc:Ignorable="d"
-        Title="OrderPaymentWindow" Height="450" Width="800">
-    <Grid>
+        Title="OrderPaymentWindow"
+        Height="500"
+        Width="900">
+    <Grid
+        Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
         
+        <TextBlock Text="Вкусная еда для вас"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="25"  
+                   Grid.Column="1"/>
+        
+        <TextBlock Text="Способ оплаты"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="25"  
+                   Grid.Row="2"/>
+        <Button 
+                x:Name="btnExitt"
+                Content="Exit"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                Width="50"
+                Height="30"
+                FontSize="18"
+                Grid.RowSpan="3"
+                Margin="47 42 0 56"
+                Click="btnExitt_Click"/>
+        
+        <Button x:Name="btnNextWindow"
+                    Content="Подтвердить"
+                    Width="200"
+                    Height="40"
+                    FontSize="20"
+                    Margin="10 0" 
+                    Grid.RowSpan="6"
+                    Background="#FA4A0C" 
+                    Foreground="White"
+                    Click="btnNextWindow_Click"/>
     </Grid>
 </Window>
