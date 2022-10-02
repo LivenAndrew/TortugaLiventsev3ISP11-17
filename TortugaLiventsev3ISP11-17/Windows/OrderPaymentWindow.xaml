@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="OrderPaymentWindow"
         Height="500"
-        Width="900">
+        Width="710">
     <Grid
         Background="White">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="300*"/>
+            <ColumnDefinition Width="100*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
@@ -21,18 +21,23 @@
             <RowDefinition Height="7*"/>
             <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
+
+        <Image Source="/Image/fones.jpg" 
+               Grid.RowSpan="9"/>
         
-        <TextBlock Text="Вкусная еда для вас"
+        <TextBlock Text="Способ оплаты: Банковская карта"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="25"  
-                   Grid.Column="1"/>
-        
-        <TextBlock Text="Способ оплаты"
+                   Foreground="White"
+                   Grid.Row="1"/>
+
+        <TextBlock Text="Принимаем любой вид платежной системы банков"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="25"  
-                   Grid.Row="2"/>
+                   Foreground="White"
+                   Grid.Row="3"/>
         <Button 
                 x:Name="btnExitt"
                 Content="Exit"
@@ -40,20 +45,21 @@
                 VerticalAlignment="Center"
                 Width="50"
                 Height="30"
-                FontSize="18"
+                FontSize="20"
                 Grid.RowSpan="3"
-                Margin="47 42 0 56"
                 Click="btnExitt_Click"/>
-        
-        <Button x:Name="btnNextWindow"
+
+        <Button x:Name="btnNexttWindow"
                     Content="Подтвердить"
                     Width="200"
                     Height="40"
                     FontSize="20"
-                    Margin="10 0" 
-                    Grid.RowSpan="6"
                     Background="#FA4A0C" 
                     Foreground="White"
-                    Click="btnNextWindow_Click"/>
+                    Click="btnNexttWindow_Click" 
+                    Grid.Row="5"/>
+
+        <Image Source="/Image/card.jpg" 
+               Grid.Row="4"/>
     </Grid>
 </Window>

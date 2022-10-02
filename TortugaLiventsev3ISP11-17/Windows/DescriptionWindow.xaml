@@ -5,8 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
         mc:Ignorable="d"
-        Title="DescriptionWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="DescriptionWindow" 
+        Height="500" 
+        Width="710">
+    <Grid
+    Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Image/image 1.png" 
+               Grid.Row="1"/>
+        <Button 
+                x:Name="btnExittt"
+                Content="Exit"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Width="50"
+                Height="30"
+                FontSize="20"
+                Grid.RowSpan="2"
+                Click="btnExittt_Click" Margin="0,-4,0,0"/>
+
+        <TextBlock
+                   Text="Информация:&#xA;
+Список ингридиентов:&#xA; 
+Кол-во грамм:&#xA;"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"
+                   Foreground="Black"
+                   FontSize="22"  
+                   Grid.Row="2" 
+                   Height="130"
+                   Width="700"/>
+
+        <TextBlock
+                   Text="&#xA;Все наши продукты дважды проверяются перед тем, как покинуть склад и&#xA;отправиться на кухню. 
+  &#xA;Если вы обнаружили что-то не то, свяжитесь по горячей линии."
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Foreground="Black"
+                   FontSize="18"  
+                   Grid.Row="3" 
+                   Height="130"
+                   Width="700"/>
+
+        <Button x:Name="btnNTWindow"
+                    Content="Перейти в корзину"
+                    Width="200"
+                    Height="40"
+                    FontSize="20"
+                    Background="#FA4A0C" 
+                    Foreground="White"
+                    Click="btnNTWindow_Click"  
+                    Grid.Row="3"
+                    Margin="252,151.2,252,10.4"/>
     </Grid>
-</Window>
+</Window> 

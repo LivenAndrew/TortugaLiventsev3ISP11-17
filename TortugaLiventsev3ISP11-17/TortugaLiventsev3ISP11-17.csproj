@@ -201,9 +201,6 @@
   <ItemGroup>
     <Resource Include="Image\emblema.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image\fones.jpg" />
-  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -219,6 +216,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\fones.jpg" />
     <Resource Include="Image\card.jpg" />
     <Resource Include="Image\table2.PNG" />
     <Resource Include="Image\table1.PNG" />

@@ -23,5 +23,18 @@ namespace TortugaLiventsev3ISP11_17.Windows
         {
             InitializeComponent();
         }
+
+        private void btnNTWindow_Click(object sender, RoutedEventArgs e)
+        {
+            BucketWindow bucketWindow = new BucketWindow();
+            bucketWindow.Show();
+        }
+
+        private void btnExittt_Click(object sender, RoutedEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Close();
+        }
     }
 }
