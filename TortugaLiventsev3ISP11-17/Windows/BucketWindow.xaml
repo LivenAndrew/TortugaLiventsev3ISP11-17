@@ -20,15 +20,12 @@
             <RowDefinition Height="12*"/>
             <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
-        
-        <Image Source="/Image/fones.jpg" 
-               Grid.RowSpan="9"/>
 
         <TextBlock Text="Корзина"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="25"  
-                   Foreground="White"
+                   Foreground="Black"
                    Grid.Row="1"/>
 
         <ListView x:Name="Bucket"
@@ -74,7 +71,5 @@
                     Foreground="White"
                     Click="btnNextttWindow_Click" 
                     Grid.Row="5"/>
-
-
     </Grid>
 </Window>

@@ -17,7 +17,7 @@ namespace TortugaLiventsev3ISP11_17.BD
         public int ID { get; set; }
         public Nullable<int> IDProduct { get; set; }
         public Nullable<int> IDOrder { get; set; }
-        public string CountProduct { get; set; }
+        public Nullable<int> CountProduct { get; set; }
     
         public virtual Order Order { get; set; }
         public virtual Product Product { get; set; }

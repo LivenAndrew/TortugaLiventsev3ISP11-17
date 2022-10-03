@@ -22,7 +22,7 @@ namespace TortugaLiventsev3ISP11_17.BD
     
         public int ID { get; set; }
         public string NameProduct { get; set; }
-        public string Weight { get; set; }
+        public Nullable<int> Weight { get; set; }
         public Nullable<decimal> Cost { get; set; }
         public string Description { get; set; }
         public Nullable<int> IDCategoryProduct { get; set; }

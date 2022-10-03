@@ -21,8 +21,8 @@ namespace TortugaLiventsev3ISP11_17.BD
         }
     
         public int ID { get; set; }
-        public string NumberTable { get; set; }
-        public string CountPlace { get; set; }
+        public Nullable<int> NumberTable { get; set; }
+        public Nullable<int> CountPlace { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Order> Order { get; set; }

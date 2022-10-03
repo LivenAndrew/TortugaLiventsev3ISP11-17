@@ -15,10 +15,10 @@ namespace TortugaLiventsev3ISP11_17.BD
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class TortugasEntities : DbContext
+    public partial class TortugasEntities1 : DbContext
     {
-        public TortugasEntities()
-            : base("name=TortugasEntities")
+        public TortugasEntities1()
+            : base("name=TortugasEntities1")
         {
         }
     

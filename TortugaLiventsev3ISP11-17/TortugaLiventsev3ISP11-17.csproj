@@ -64,40 +64,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Windows\BucketWindow.xaml.cs">
-      <DependentUpon>BucketWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\DescriptionWindow.xaml.cs">
-      <DependentUpon>DescriptionWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\MenuWindow.xaml.cs">
-      <DependentUpon>MenuWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\OrderPaymentWindow.xaml.cs">
-      <DependentUpon>OrderPaymentWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\ThanksWindow.xaml.cs">
-      <DependentUpon>ThanksWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
-    </Compile>
-    <Page Include="Windows\BucketWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\DescriptionWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="BD\CategoryProduct.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -142,6 +108,40 @@
     </Compile>
     <Compile Include="BD\Waiter.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BucketWindow.xaml.cs">
+      <DependentUpon>BucketWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DescriptionWindow.xaml.cs">
+      <DependentUpon>DescriptionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MenuWindow.xaml.cs">
+      <DependentUpon>MenuWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\OrderPaymentWindow.xaml.cs">
+      <DependentUpon>OrderPaymentWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ThanksWindow.xaml.cs">
+      <DependentUpon>ThanksWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Windows\BucketWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DescriptionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
     </Compile>
     <Compile Include="Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -201,10 +201,6 @@
   <ItemGroup>
     <Resource Include="Image\emblema.png" />
   </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
   <ItemGroup>
     <Content Include="BD\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -216,6 +212,11 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Image\fones.jpg" />
     <Resource Include="Image\card.jpg" />
     <Resource Include="Image\table2.PNG" />

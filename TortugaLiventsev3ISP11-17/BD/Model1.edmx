@@ -26,7 +26,7 @@
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="IDWaiter" Type="int" />
           <Property Name="IDTable" Type="int" />
-          <Property Name="DateOrder" Type="date" />
+          <Property Name="DateOrder" Type="datetime" />
         </EntityType>
         <EntityType Name="Product">
           <Key>
@@ -34,11 +34,11 @@
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="NameProduct" Type="nvarchar" MaxLength="50" />
-          <Property Name="Weight" Type="nvarchar" MaxLength="50" />
-          <Property Name="Cost" Type="decimal" Precision="12" Scale="2" />
+          <Property Name="Weight" Type="int" />
+          <Property Name="Cost" Type="decimal" Precision="10" Scale="2" />
           <Property Name="Description" Type="nvarchar" MaxLength="200" />
           <Property Name="IDCategoryProduct" Type="int" />
-          <Property Name="Photo" Type="nvarchar(max)" />
+          <Property Name="Photo" Type="nvarchar" MaxLength="2048" />
         </EntityType>
         <EntityType Name="ProductOrder">
           <Key>
@@ -47,7 +47,7 @@
           <Property Name="ID" Type="int" Nullable="false" />
           <Property Name="IDProduct" Type="int" />
           <Property Name="IDOrder" Type="int" />
-          <Property Name="CountProduct" Type="nvarchar" MaxLength="50" />
+          <Property Name="CountProduct" Type="int" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -64,8 +64,8 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="NumberTable" Type="nvarchar" MaxLength="10" />
-          <Property Name="CountPlace" Type="nvarchar" MaxLength="50" />
+          <Property Name="NumberTable" Type="int" />
+          <Property Name="CountPlace" Type="int" />
         </EntityType>
         <EntityType Name="Waiter">
           <Key>
@@ -242,7 +242,7 @@
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="IDWaiter" Type="Int32" />
           <Property Name="IDTable" Type="Int32" />
-          <Property Name="DateOrder" Type="DateTime" Precision="0" />
+          <Property Name="DateOrder" Type="DateTime" Precision="3" />
           <NavigationProperty Name="Table" Relationship="Self.FK_Order_Table" FromRole="Order" ToRole="Table" />
           <NavigationProperty Name="Waiter" Relationship="Self.FK_Order_Waiter" FromRole="Order" ToRole="Waiter" />
           <NavigationProperty Name="ProductOrder" Relationship="Self.FK_ProductOrder_Order" FromRole="Order" ToRole="ProductOrder" />
@@ -253,11 +253,11 @@
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="NameProduct" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Weight" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Cost" Type="Decimal" Precision="12" Scale="2" />
+          <Property Name="Weight" Type="Int32" />
+          <Property Name="Cost" Type="Decimal" Precision="10" Scale="2" />
           <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="IDCategoryProduct" Type="Int32" />
-          <Property Name="Photo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Photo" Type="String" MaxLength="2048" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="CategoryProduct" Relationship="Self.FK_Product_CategoryProduct" FromRole="Product" ToRole="CategoryProduct" />
           <NavigationProperty Name="ProductOrder" Relationship="Self.FK_ProductOrder_Product" FromRole="Product" ToRole="ProductOrder" />
         </EntityType>
@@ -268,7 +268,7 @@
           <Property Name="ID" Type="Int32" Nullable="false" />
           <Property Name="IDProduct" Type="Int32" />
           <Property Name="IDOrder" Type="Int32" />
-          <Property Name="CountProduct" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CountProduct" Type="Int32" />
           <NavigationProperty Name="Order" Relationship="Self.FK_ProductOrder_Order" FromRole="ProductOrder" ToRole="Order" />
           <NavigationProperty Name="Product" Relationship="Self.FK_ProductOrder_Product" FromRole="ProductOrder" ToRole="Product" />
         </EntityType>
@@ -287,8 +287,8 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="NumberTable" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="CountPlace" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NumberTable" Type="Int32" />
+          <Property Name="CountPlace" Type="Int32" />
           <NavigationProperty Name="Order" Relationship="Self.FK_Order_Table" FromRole="Table" ToRole="Order" />
         </EntityType>
         <EntityType Name="Waiter">
@@ -375,7 +375,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="TortugasEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="TortugasEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="CategoryProduct" EntityType="Self.CategoryProduct" />
           <EntitySet Name="Gender" EntityType="Self.Gender" />
           <EntitySet Name="Order" EntityType="Self.Order" />
@@ -455,7 +455,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище TortugasModelContainer" CdmEntityContainer="TortugasEntities">
+        <EntityContainerMapping StorageEntityContainer="Хранилище TortugasModelContainer" CdmEntityContainer="TortugasEntities1">
           <EntitySetMapping Name="CategoryProduct">
             <EntityTypeMapping TypeName="TortugasModel.CategoryProduct">
               <MappingFragment StoreEntitySet="CategoryProduct">
