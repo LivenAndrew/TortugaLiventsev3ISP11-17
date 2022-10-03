@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="DescriptionWindow" 
         Height="500" 
-        Width="710">
+        Width="910">
     <Grid
     Background="White">
         <Grid.ColumnDefinitions>
@@ -31,7 +31,8 @@
                 Height="30"
                 FontSize="20"
                 Grid.RowSpan="2"
-                Click="btnExittt_Click" Margin="0,-4,0,0"/>
+                Click="btnExittt_Click" 
+                Margin="10,10,0,0"/>
 
         <TextBlock
                    Text="Информация:&#xA;
@@ -42,8 +43,10 @@
                    Foreground="Black"
                    FontSize="22"  
                    Grid.Row="2" 
-                   Height="130"
-                   Width="700"/>
+                   Height="112"
+                   Width="700" 
+                   Margin="0,0.2,0,201.4"
+                   Grid.RowSpan="2"/>
 
         <TextBlock
                    Text="&#xA;Все наши продукты дважды проверяются перед тем, как покинуть склад и&#xA;отправиться на кухню. 
@@ -53,8 +56,9 @@
                    Foreground="Black"
                    FontSize="18"  
                    Grid.Row="3" 
-                   Height="130"
-                   Width="700"/>
+                   Height="110"
+                   Width="792" 
+                   Margin="10,36.2,102,55.4"/>
 
         <Button x:Name="btnNTWindow"
                     Content="Перейти в корзину"

@@ -28,7 +28,7 @@ namespace TortugaLiventsev3ISP11_17
 
         private void btnNextWindow_Click(object sender, RoutedEventArgs e)
         {
-            TableWindow tableWindow = new TableWindow();
+            Window1 tableWindow = new Window1();
             tableWindow.Show();
         }
     }

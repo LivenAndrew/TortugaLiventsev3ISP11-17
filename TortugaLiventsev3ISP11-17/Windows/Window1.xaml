@@ -1,0 +1,109 @@
+﻿<Window x:Class="TortugaLiventsev3ISP11_17.Windows.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
+        mc:Ignorable="d"
+        Title="Window1"
+        Height="500" 
+        Width="910">
+    <Grid 
+         Background="#FFFFFF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+            <ColumnDefinition Width="500*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="600*"/>
+        </Grid.RowDefinitions>
+
+        <Button 
+                x:Name="btnEXX"
+                Content="Exit"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                Width="50"
+                Height="30"
+                FontSize="18"
+                Grid.RowSpan="2"
+                Margin="47 42 0 56" Click="btnEXX_Click"
+                />
+
+        <TextBlock Text="Выбор столика"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="25"  
+                   Grid.Column="2"/>
+        <Button
+            x:Name="Table1"
+            Click="Table1_Click"
+            Background="{x:Null}"
+            BorderBrush="{x:Null}"
+            Grid.Row="2">
+            <Image 
+            Source="/Image/Table1.png"
+            Grid.Row="2"
+            Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table2"
+            Click="Table2_Click"
+            Background="{x:Null}"
+            BorderBrush="{x:Null}"
+            Grid.Column="1"
+            Grid.Row="2">
+            <Image 
+            Source="/Image/Table2.png"
+            Grid.Row="2"
+            Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table3"
+            Click="Table3_Click"
+            Background="{x:Null}"
+            BorderBrush="{x:Null}"
+            Grid.Column="2"
+            Grid.Row="2">
+            <Image 
+            Source="/Image/Table3.png"
+            Grid.Row="2"
+            Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table4"
+            Click="Table4_Click"
+            Background="{x:Null}"
+            BorderBrush="{x:Null}"
+            Grid.Column="3"
+            Grid.Row="2">
+            <Image 
+            Source="/Image/Table4.png"
+            Grid.Row="2"
+            Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table5"
+            Click="Table5_Click"
+            Background="{x:Null}"
+            BorderBrush="{x:Null}"
+            Grid.Column="4"
+            Grid.Row="2">
+            <Image 
+            Source="/Image/Table5.png"
+            Grid.Row="2"
+            Stretch="Fill"/>
+        </Button>
+    </Grid>
+</Window>
+

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MenuWindow"
         Height="500" 
-        Width="900"
+        Width="910"
         WindowStartupLocation="CenterScreen">
     <Grid 
          Background="#FCDFD4">

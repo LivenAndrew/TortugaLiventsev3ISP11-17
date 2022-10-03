@@ -20,6 +20,7 @@
             <RowDefinition Height="12*"/>
             <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
+        
         <Image Source="/Image/fones.jpg" 
                Grid.RowSpan="9"/>
 
@@ -32,8 +33,7 @@
 
         <ListView x:Name="Bucket"
                   Grid.Row="3"
-                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
-                  SelectionChanged="Bucket_SelectionChanged">
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>

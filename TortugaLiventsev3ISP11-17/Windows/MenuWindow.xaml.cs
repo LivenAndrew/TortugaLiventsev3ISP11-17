@@ -25,8 +25,8 @@ namespace TortugaLiventsev3ISP11_17.Windows
         }
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
+            Window1 window1 = new Window1();
+            window1.Show();
             this.Close();
         }
 
