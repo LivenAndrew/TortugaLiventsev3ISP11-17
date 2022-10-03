@@ -1,7 +1,8 @@
 # TortugaLiventsev3ISP11-17
 
 Диаграмма базы данных SQL Тортугас
-![image](https://user-images.githubusercontent.com/86151110/191747769-4759d2d1-170d-4429-89e5-be890a2995bd.png)
+![image](https://user-images.githubusercontent.com/86151110/193684825-081742df-4270-4e0a-b583-8e70718d3fa5.png)
+
 
 -------------------------------------------------------------------------------------------------
 
