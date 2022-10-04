@@ -19,8 +19,9 @@
             <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
         
-        <Image Source="/Image/fones.jpg" 
-               Grid.RowSpan="5"/>
+        <Image 
+            Source="/Image/fones.jpg" 
+            Grid.RowSpan="5"/>
 
         <TextBlock
                    Text="Спасибо, что являетесь нашим ценным клиентом. 
@@ -33,15 +34,16 @@
                    Grid.Column="1"
                    Grid.Row="2"/>
 
-        <Button x:Name="btnReturntWindow"
-                    Content="Вернуться на главный экран"
-                    Width="280"
-                    Height="70"
-                    FontSize="20" 
-                    Background="#FA4A0C" 
-                    Foreground="White"
-                    Click="btnReturnWindow_Click" 
-                    Grid.Column="1"
-                    Grid.Row="5"/>
+        <Button 
+            x:Name="btnReturntWindow"
+            Content="Вернуться на главный экран"
+            Width="280"
+            Height="70"
+            FontSize="20" 
+            Background="#FA4A0C" 
+            Foreground="White"
+            Click="btnReturnWindow_Click" 
+            Grid.Column="1"
+            Grid.Row="5"/>
     </Grid>
 </Window>

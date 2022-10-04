@@ -20,26 +20,29 @@
             <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
 
-        <Image Source="/Image/fones.jpg" 
-               Grid.RowSpan="9"/>
+        <Image 
+            Source="/Image/fones.jpg" 
+            Grid.RowSpan="9"/>
 
-        <Image Source="/Image/emblema.png" 
-               Grid.RowSpan="4"/>
+        <Image 
+            Source="/Image/emblema.png" 
+            Grid.RowSpan="4"/>
 
-        <WrapPanel Grid.Row="7"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center">
+        <WrapPanel 
+            Grid.Row="7"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
 
-            <Button x:Name="btnNextWindow"
-                    Content="Начать работу"
-                    Width="200"
-                    Height="40"
-                    FontSize="20"
-                    Margin="10 0" 
-                    Background="#FA4A0C" 
-                    Foreground="White"
-                    Click="btnNextWindow_Click"/>
-
+            <Button 
+                x:Name="btnNextWindow"
+                Content="Начать работу"
+                Width="200"
+                Height="40"
+                FontSize="20"
+                Margin="10 0" 
+                Background="#FA4A0C" 
+                Foreground="White"
+                Click="btnNextWindow_Click"/>
         </WrapPanel>
     </Grid>
 </Window>

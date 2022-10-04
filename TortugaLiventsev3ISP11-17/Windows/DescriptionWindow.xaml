@@ -20,8 +20,9 @@
             <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
 
-        <Image Source="/Image/image 1.png" 
-               Grid.Row="1"/>
+        <Image
+            Source="/Image/image 1.png" 
+            Grid.Row="1"/>
         <Button 
                 x:Name="btnExittt"
                 Content="Exit"
@@ -60,15 +61,16 @@
                    Width="792" 
                    Margin="10,36.2,102,55.4"/>
 
-        <Button x:Name="btnNTWindow"
-                    Content="Перейти в корзину"
-                    Width="200"
-                    Height="40"
-                    FontSize="20"
-                    Background="#FA4A0C" 
-                    Foreground="White"
-                    Click="btnNTWindow_Click"  
-                    Grid.Row="3"
-                    Margin="252,151.2,252,10.4"/>
+        <Button
+            x:Name="btnNTWindow"
+            Content="Перейти в корзину"
+            Width="200"
+            Height="40"
+            FontSize="20"
+            Background="#FA4A0C" 
+            Foreground="White"
+            Click="btnNTWindow_Click"  
+            Grid.Row="3"
+            Margin="252,151.2,252,10.4"/>
     </Grid>
 </Window> 

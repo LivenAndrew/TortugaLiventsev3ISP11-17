@@ -32,11 +32,11 @@
                 Width="50"
                 Height="30"
                 FontSize="18"
-                Grid.RowSpan="2"
-                Margin="47 42 0 56" Click="btnEXX_Click"
-                />
+                Margin="0,49,0,31.4" 
+                Click="btnEXX_Click"/>
 
-        <TextBlock Text="Выбор столика"
+        <TextBlock 
+                   Text="Выбор столика"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="25"  

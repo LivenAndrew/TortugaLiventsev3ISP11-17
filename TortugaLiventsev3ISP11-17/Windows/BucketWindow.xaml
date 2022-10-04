@@ -21,16 +21,18 @@
             <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="Корзина"
-                   VerticalAlignment="Center"
-                   HorizontalAlignment="Center"
-                   FontSize="25"  
-                   Foreground="Black"
-                   Grid.Row="1"/>
+        <TextBlock
+            Text="Корзина"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            FontSize="25"  
+            Foreground="Black"
+            Grid.Row="1"/>
 
-        <ListView x:Name="Bucket"
-                  Grid.Row="3"
-                  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListView 
+            x:Name="Bucket"
+            Grid.Row="3"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -62,14 +64,15 @@
                 Grid.RowSpan="3"
                 Click="btnExittt_Click"/>
 
-        <Button x:Name="btnNextttWindow"
-                    Content="Подтвердить"
-                    Width="200"
-                    Height="40"
-                    FontSize="20"
-                    Background="#FA4A0C" 
-                    Foreground="White"
-                    Click="btnNextttWindow_Click" 
-                    Grid.Row="5"/>
+        <Button 
+            x:Name="btnNextttWindow"
+            Content="Подтвердить"
+            Width="200"
+            Height="40"
+            FontSize="20"
+            Background="#FA4A0C" 
+            Foreground="White"
+            Click="btnNextttWindow_Click" 
+            Grid.Row="5"/>
     </Grid>
 </Window>
