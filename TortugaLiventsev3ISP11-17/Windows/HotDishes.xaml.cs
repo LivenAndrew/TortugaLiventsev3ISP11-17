@@ -15,61 +15,51 @@ using System.Windows.Shapes;
 namespace TortugaLiventsev3ISP11_17.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для MenuWindow.xaml
+    /// Логика взаимодействия для HotDishes.xaml
     /// </summary>
-    public partial class MenuWindow : Window
+    public partial class HotDishes : Window
     {
-        public MenuWindow()
+        public HotDishes()
         {
             InitializeComponent();
         }
-        private void gorbluda_Click(object sender, RoutedEventArgs e)
-        {
-            HotDishes hotdishesWindow = new HotDishes();
-            hotdishesWindow.Show();
-            this.Close();
-        }
-        private void napitki_Click(object sender, RoutedEventArgs e)
+
+        private void zarkoe_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
-        private void garniry_Click(object sender, RoutedEventArgs e)
+        private void image4_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
-        private void deserty_Click(object sender, RoutedEventArgs e)
+        private void image5_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
-        private void pizza_Click(object sender, RoutedEventArgs e)
+        private void image1_Click(object sender, RoutedEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Close();
+        }
+        private void image3_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
 
-        private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        private void btnExxx_Click(object sender, RoutedEventArgs e)
         {
-            Filter();
-        }
-
-        private void Filter()
-        {
-            throw new NotImplementedException();
-        }
-
-        private void btnEXx_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 window1 = new Window1();
-            window1.Show();
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
             this.Close();
         }
     }
-
 }

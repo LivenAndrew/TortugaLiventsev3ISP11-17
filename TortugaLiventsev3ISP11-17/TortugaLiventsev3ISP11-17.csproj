@@ -115,6 +115,9 @@
     <Compile Include="Windows\DescriptionWindow.xaml.cs">
       <DependentUpon>DescriptionWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\HotDishes.xaml.cs">
+      <DependentUpon>HotDishes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\MenuWindow.xaml.cs">
       <DependentUpon>MenuWindow.xaml</DependentUpon>
     </Compile>
@@ -132,6 +135,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\DescriptionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\HotDishes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
