@@ -23,12 +23,37 @@ namespace TortugaLiventsev3ISP11_17.Windows
         {
             InitializeComponent();
         }
-        private void btnExit_Click(object sender, RoutedEventArgs e)
+        private void gorbluda_Click(object sender, RoutedEventArgs e)
         {
-            Window1 window1 = new Window1();
-            window1.Show();
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
             this.Close();
         }
+        private void napitki_Click(object sender, RoutedEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Close();
+        }
+        private void garniry_Click(object sender, RoutedEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Close();
+        }
+        private void deserty_Click(object sender, RoutedEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Close();
+        }
+        private void pizza_Click(object sender, RoutedEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Close();
+        }
+
 
         private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -40,9 +65,11 @@ namespace TortugaLiventsev3ISP11_17.Windows
             throw new NotImplementedException();
         }
 
-        private void Dishes_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void btnEXx_Click(object sender, RoutedEventArgs e)
         {
-
+            Window1 window1 = new Window1();
+            window1.Show();
+            this.Close();
         }
     }
 

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="BucketWindow"
         Height="500" 
-        Width="710">
+        Width="910">
     <Grid
         Background="White">
         <Grid.ColumnDefinitions>
@@ -52,7 +52,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        
+
         <Button 
                 x:Name="btnExittt"
                 Content="Exit"
@@ -61,8 +61,10 @@
                 Width="50"
                 Height="30"
                 FontSize="20"
-                Grid.RowSpan="3"
-                Click="btnExittt_Click"/>
+                Grid.RowSpan="2"
+                Click="btnExittt_Click" 
+                Margin="25,20.6,0,39.8" 
+                Grid.Row="1"/>
 
         <Button 
             x:Name="btnNextttWindow"
