@@ -15,61 +15,50 @@ using System.Windows.Shapes;
 namespace TortugaLiventsev3ISP11_17.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для MenuWindow.xaml
+    /// Логика взаимодействия для Drinks.xaml
     /// </summary>
-    public partial class MenuWindow : Window
+    public partial class Drinks : Window
     {
-        public MenuWindow()
+        public Drinks()
         {
             InitializeComponent();
         }
-        private void gorbluda_Click(object sender, RoutedEventArgs e)
-        {
-            HotDishes hotdishesWindow = new HotDishes();
-            hotdishesWindow.Show();
-            this.Close();
-        }
-        private void napitki_Click(object sender, RoutedEventArgs e)
-        {
-            Drinks drinksWindow = new Drinks();
-            drinksWindow.Show();
-            this.Close();
-        }
-        private void garniry_Click(object sender, RoutedEventArgs e)
+        private void cola_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
-        private void deserty_Click(object sender, RoutedEventArgs e)
+        private void fanta_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
-        private void pizza_Click(object sender, RoutedEventArgs e)
+        private void sprite_Click(object sender, RoutedEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Close();
+        }
+        private void water_Click(object sender, RoutedEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Close();
+        }
+        private void gaswater_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
 
-        private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        private void btnExits_Click(object sender, RoutedEventArgs e)
         {
-            Filter();
-        }
-
-        private void Filter()
-        {
-            throw new NotImplementedException();
-        }
-
-        private void btnEXx_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 window1 = new Window1();
-            window1.Show();
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
             this.Close();
         }
     }
-
 }
