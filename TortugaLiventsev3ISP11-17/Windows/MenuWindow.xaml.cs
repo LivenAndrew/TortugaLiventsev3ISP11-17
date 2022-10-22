@@ -37,20 +37,20 @@ namespace TortugaLiventsev3ISP11_17.Windows
         }
         private void garniry_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
-            menuWindow.Show();
+            SideDishes sidedishes = new SideDishes();
+            sidedishes.Show();
             this.Close();
         }
         private void deserty_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
-            menuWindow.Show();
+            DessertsWindow dessertswindow = new DessertsWindow();
+            dessertswindow.Show();
             this.Close();
         }
         private void pizza_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
-            menuWindow.Show();
+            Pizza pizzawindow = new Pizza();
+            pizzawindow.Show();
             this.Close();
         }
 

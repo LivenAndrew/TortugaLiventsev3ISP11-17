@@ -115,6 +115,9 @@
     <Compile Include="Windows\DescriptionWindow.xaml.cs">
       <DependentUpon>DescriptionWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\DessertsWindow.xaml.cs">
+      <DependentUpon>DessertsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Drinks.xaml.cs">
       <DependentUpon>Drinks.xaml</DependentUpon>
     </Compile>
@@ -127,6 +130,12 @@
     <Compile Include="Windows\OrderPaymentWindow.xaml.cs">
       <DependentUpon>OrderPaymentWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Pizza.xaml.cs">
+      <DependentUpon>Pizza.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SideDishes.xaml.cs">
+      <DependentUpon>SideDishes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\ThanksWindow.xaml.cs">
       <DependentUpon>ThanksWindow.xaml</DependentUpon>
     </Compile>
@@ -138,6 +147,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\DescriptionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DessertsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -166,6 +179,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\OrderPaymentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Pizza.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\SideDishes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -226,6 +247,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\carbonara.png" />
     <Resource Include="Image\pizza.jpg" />
     <Resource Include="Image\deserty.jpg" />
     <Resource Include="Image\garniry.jpg" />
@@ -243,7 +265,6 @@
     <Resource Include="Image\table5.PNG" />
     <Resource Include="Image\table4.PNG" />
     <Resource Include="Image\table3.PNG" />
-    <Resource Include="Image\Thanks.jpg" />
     <Resource Include="Image\waterpit.png" />
     <Resource Include="Image\watergas.png" />
     <Resource Include="Image\zarkoe.png" />
@@ -265,7 +286,6 @@
     <Resource Include="Image\cola.png" />
     <Resource Include="Image\chocolatecake.png" />
     <Resource Include="Image\cheesecake.png" />
-    <Resource Include="Image\carbonara.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
