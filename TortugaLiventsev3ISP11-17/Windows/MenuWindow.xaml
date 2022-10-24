@@ -144,13 +144,13 @@
 
         <Button
             x:Name="pizza"
-            Click="pizza_Click"
+            Click="piz_Click"
             Background="{x:Null}"
             BorderBrush="{x:Null}"
             Grid.Column="4"
             Grid.Row="2">
             <Image 
-            Source="/Image/pizza.jpg"
+            Source="/Image/piz.jpg"
             Grid.Row="2"
             Stretch="Fill"/>
         </Button>

@@ -47,7 +47,7 @@ namespace TortugaLiventsev3ISP11_17.Windows
             dessertswindow.Show();
             this.Close();
         }
-        private void pizza_Click(object sender, RoutedEventArgs e)
+        private void piz_Click(object sender, RoutedEventArgs e)
         {
             Pizza pizzawindow = new Pizza();
             pizzawindow.Show();

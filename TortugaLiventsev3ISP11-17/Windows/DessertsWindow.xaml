@@ -85,7 +85,8 @@
             <Image 
             Source="/Image/cheesecake.png"
             Grid.Row="2"
-            Stretch="Fill"/>
+            Stretch="Fill" 
+            Height="221"/>
         </Button>
 
         <Button

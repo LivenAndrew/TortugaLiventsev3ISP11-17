@@ -103,7 +103,8 @@
             <Image 
             Source="/Image/ricevegetable.png"
             Grid.Row="2"
-            Stretch="Fill"/>
+            Stretch="Fill" 
+            Height="171"/>
         </Button>
 
         <Button
@@ -146,7 +147,7 @@
             Source="/Image/ratatue.png"
             Grid.Row="2"
             Stretch="Fill" 
-            Height="182"/>
+            Height="211"/>
         </Button>
 
         <Button
@@ -157,7 +158,7 @@
             Grid.Column="4"
             Grid.Row="2">
             <Image 
-            Source="/Image/potatoefri.jpg"
+            Source="/Image/potatoefri.png"
             Grid.Row="2"
             Stretch="Fill"
             Height="182"/>

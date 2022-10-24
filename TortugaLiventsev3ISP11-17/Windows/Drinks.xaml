@@ -117,8 +117,8 @@
             Source="/Image/fanta.png"
             Grid.Row="2"
             Stretch="Fill" 
-            Height="202" 
-            Width="189"/>
+            Height="267" 
+            Width="76"/>
         </Button>
 
         <Button
@@ -129,9 +129,11 @@
             Grid.Column="2"
             Grid.Row="2">
             <Image 
-            Source="/Image/sprite.jpg"
+            Source="/Image/sprite.png"
             Grid.Row="2"
-            Stretch="Fill" Height="182"/>
+            Stretch="Fill"
+            Height="242" 
+            Width="77"/>
         </Button>
 
         <Button
@@ -144,7 +146,8 @@
             <Image 
             Source="/Image/waterpit.png"
             Grid.Row="2"
-            Stretch="Fill" Height="182"/>
+            Stretch="Fill"
+            Height="242"/>
         </Button>
 
         <Button
@@ -157,7 +160,9 @@
             <Image 
             Source="/Image/watergas.png"
             Grid.Row="2"
-            Stretch="Fill" Height="182"/>
+            Stretch="Fill"
+            Height="240"
+            Width="125"/>
         </Button>
     </Grid>
 </Window>
