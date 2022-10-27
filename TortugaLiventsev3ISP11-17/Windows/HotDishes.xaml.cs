@@ -36,19 +36,19 @@ namespace TortugaLiventsev3ISP11_17.Windows
             menuWindow.Show();
             this.Close();
         }
-        private void image5_Click(object sender, RoutedEventArgs e)
+        private void friedrice_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
-        private void image1_Click(object sender, RoutedEventArgs e)
+        private void lagman_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();
             this.Close();
         }
-        private void image3_Click(object sender, RoutedEventArgs e)
+        private void moimoi_Click(object sender, RoutedEventArgs e)
         {
             MenuWindow menuWindow = new MenuWindow();
             menuWindow.Show();

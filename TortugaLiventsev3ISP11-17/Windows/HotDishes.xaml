@@ -122,7 +122,7 @@
         </Button>
 
         <Button
-            x:Name="image5"
+            x:Name="friedrice"
             Click="friedrice_Click"
             Background="{x:Null}"
             BorderBrush="{x:Null}"
@@ -137,29 +137,31 @@
         </Button>
 
         <Button
-            x:Name="imgae1"
-            Click="image1_Click"
+            x:Name="lagman"
+            Click="lagman_Click"
             Background="{x:Null}"
             BorderBrush="{x:Null}"
             Grid.Column="3"
             Grid.Row="2">
             <Image 
-            Source="/Image/image 1.png"
+            Source="/Image/lagman.png"
             Grid.Row="2"
-            Stretch="Fill" Height="182"/>
+            Stretch="Fill"
+            Height="182"/>
         </Button>
 
         <Button
-            x:Name="image3"
-            Click="image3_Click"
+            x:Name="moi"
+            Click="moimoi_Click"
             Background="{x:Null}"
             BorderBrush="{x:Null}"
             Grid.Column="4"
             Grid.Row="2">
             <Image 
-            Source="/Image/image 3.png"
+            Source="/Image/moi-moi.png"
             Grid.Row="2"
-            Stretch="Fill" Height="182"/>
+            Stretch="Fill" 
+            Height="182"/>
         </Button>
     </Grid>
 </Window>
