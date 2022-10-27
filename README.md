@@ -1,6 +1,6 @@
 # TortugaLiventsev3ISP11-17
 
-Диаграмма базы данных SQL Тортугас
+Диаграмма "Базы Данных" SQL Management Studio "Tortuga's".
 ![image](https://user-images.githubusercontent.com/86151110/193684825-081742df-4270-4e0a-b583-8e70718d3fa5.png)
 
 
