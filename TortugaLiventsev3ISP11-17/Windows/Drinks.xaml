@@ -47,7 +47,7 @@
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="25"  
-            Foreground="White"
+                   Foreground="White"
                    Grid.Column="2"/>
 
         <TextBlock 
@@ -85,6 +85,7 @@
                    Grid.Row="1"
                    Grid.Column="3"
                    Background="#FFFFFF"/>
+        
         <TextBlock 
                    Text="Мин.вода"
                    VerticalAlignment="Center"

@@ -24,8 +24,6 @@
             <RowDefinition Height="600*"/>
         </Grid.RowDefinitions>
 
-        
-
         <Button 
                 x:Name="btnEXX"
                 Content="Exit"
