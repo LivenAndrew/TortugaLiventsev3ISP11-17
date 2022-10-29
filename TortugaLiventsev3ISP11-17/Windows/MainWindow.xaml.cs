@@ -31,5 +31,11 @@ namespace TortugaLiventsev3ISP11_17
             Window1 tableWindow = new Window1();
             tableWindow.Show();
         }
+
+        private void btnInfo_Click(object sender, RoutedEventArgs e)
+        {
+            InfoWindow infowindow = new InfoWindow();
+            infowindow.Show();
+        }
     }
 }

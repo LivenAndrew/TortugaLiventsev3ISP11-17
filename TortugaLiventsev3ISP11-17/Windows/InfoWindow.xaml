@@ -1,0 +1,58 @@
+﻿<Window x:Class="TortugaLiventsev3ISP11_17.Windows.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
+        mc:Ignorable="d"
+        Height="500"
+        Width="710"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Image 
+            Source="/Image/fones2.jpg" 
+            Grid.RowSpan="9"/>
+
+        <Button 
+                x:Name="btnExitMain"
+                Content="Exit"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Width="50"
+                Height="30"
+                FontSize="20"
+                Grid.RowSpan="2"
+                Click="btnExitMain_Click" 
+                Margin="10,10,0,0"/>
+
+        <WrapPanel 
+            Grid.Row="7"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"/>
+
+        <TextBlock
+                   Text="
+                                              ЧАСЫ РАБОТЫ:&#xA;
+ПН–ЧТ:  8:00 A.M – 11:00 P.M&#xA;
+ПТ:  8:00 A.M - 1:00 A.M&#xA;
+СБ:  1:00 P.M – 01:00 A.M&#xA;
+ВС:  1:00 P.M – 10:00 P.M&#xA;
+            
+                                     АДРЕС:&#xA;
+Рязанский проспект, 10c2, г. Москва, Россия&#xA;
+Email:  Inf.tdp@gmail.com&#xA;
+Tелефон:  +7 (999) 926-44-51​&#xA;
+WhatsApp:  +7 (999) 926-44-51&#xA;&#xA;По всем интересующимся вопросам обращайтесь!" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Foreground="White"
+                   FontSize="22" 
+                   Height="415"
+                   Width="684" 
+                   Margin="10,45,10,10.4"/>
+    </Grid>
+</Window>

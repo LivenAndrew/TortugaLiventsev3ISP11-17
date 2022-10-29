@@ -43,6 +43,17 @@
                 Background="#FA4A0C" 
                 Foreground="White"
                 Click="btnNextWindow_Click"/>
+
+            <Button 
+                x:Name="Info"
+                Content="Информация"
+                Width="200"
+                Height="40"
+                FontSize="20"
+                Margin="10 0" 
+                Background="#FA4A0C" 
+                Foreground="White"
+                Click="btnInfo_Click"/>
         </WrapPanel>
     </Grid>
 </Window>
