@@ -43,7 +43,7 @@
 
 "Структура проекта Visual Studio."
 
-![image](https://user-images.githubusercontent.com/86151110/192544910-99dcc120-97db-4504-a40c-442f181af24f.png)
+![image](https://user-images.githubusercontent.com/86151110/198851454-f94ba5fe-1ab5-4d22-961e-f87d4a47fd84.png)
 
 Папочка "BD" описывает саму "Базу данных приложения".
 -------------------------------------------------------------------------------------------------
