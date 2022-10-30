@@ -85,7 +85,7 @@
                    Grid.Row="1"
                    Grid.Column="3"
                    Background="#FFFFFF"/>
-        
+
         <TextBlock 
                    Text="Мои-мои"
                    VerticalAlignment="Center"
@@ -164,5 +164,18 @@
             Stretch="Fill" 
             Height="182"/>
         </Button>
+
+        <Button 
+            x:Name="btnInfoHotDishes"
+            Content="Info"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Width="50"
+            Height="30" 
+            Background="#FA4A0C" 
+            FontSize="18"
+            Margin="98.8,49,0,31.4" 
+            Click="btnInfoHotDishes_Click" 
+            Grid.Column="4"/>
     </Grid>
 </Window>

@@ -112,9 +112,6 @@
     <Compile Include="Windows\BucketWindow.xaml.cs">
       <DependentUpon>BucketWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\DescriptionWindow.xaml.cs">
-      <DependentUpon>DescriptionWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Windows\DessertsWindow.xaml.cs">
       <DependentUpon>DessertsWindow.xaml</DependentUpon>
     </Compile>
@@ -145,11 +142,22 @@
     <Compile Include="Windows\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\WindowDescriptionHD.xaml.cs">
+      <DependentUpon>WindowDescriptionHD.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowDHD2.xaml.cs">
+      <DependentUpon>WindowDHD2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowDHD3.xaml.cs">
+      <DependentUpon>WindowDHD3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowDHD4.xaml.cs">
+      <DependentUpon>WindowDHD4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowDHD5.xaml.cs">
+      <DependentUpon>WindowDHD5.xaml</DependentUpon>
+    </Compile>
     <Page Include="Windows\BucketWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\DescriptionWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -205,6 +213,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\WindowDescriptionHD.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowDHD2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowDHD3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowDHD4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowDHD5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -254,6 +282,11 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\tables5.PNG" />
+    <Resource Include="Image\tables4.PNG" />
+    <Resource Include="Image\tables3.PNG" />
+    <Resource Include="Image\tables2.PNG" />
+    <Resource Include="Image\tables1.PNG" />
     <Resource Include="Image\fones2.jpg" />
     <Resource Include="Image\lagman.png" />
     <Resource Include="Image\moi-moi.png" />
@@ -283,11 +316,6 @@
   <ItemGroup>
     <Resource Include="Image\fones.jpg" />
     <Resource Include="Image\card.jpg" />
-    <Resource Include="Image\table2.PNG" />
-    <Resource Include="Image\table1.PNG" />
-    <Resource Include="Image\table5.PNG" />
-    <Resource Include="Image\table4.PNG" />
-    <Resource Include="Image\table3.PNG" />
     <Resource Include="Image\zarkoe.png" />
     <Resource Include="Image\potatosoev.png" />
     <Resource Include="Image\image 5.png" />

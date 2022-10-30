@@ -20,8 +20,8 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="200*"/>
-            <RowDefinition Height="50*"/>
-            <RowDefinition Height="600*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="650*"/>
         </Grid.RowDefinitions>
 
         <Button 
@@ -48,9 +48,10 @@
             BorderBrush="{x:Null}"
             Grid.Row="2">
             <Image 
-            Source="/Image/Table1.png"
+            Source="/Image/Tables1.png"
             Grid.Row="2"
-            Stretch="Fill"/>
+            Stretch="Fill" 
+            Height="326"/>
         </Button>
 
         <Button
@@ -61,9 +62,10 @@
             Grid.Column="1"
             Grid.Row="2">
             <Image 
-            Source="/Image/Table2.png"
+            Source="/Image/Tables2.png"
             Grid.Row="2"
-            Stretch="Fill"/>
+            Stretch="Fill" 
+            Height="326"/>
         </Button>
 
         <Button
@@ -74,9 +76,10 @@
             Grid.Column="2"
             Grid.Row="2">
             <Image 
-            Source="/Image/Table3.png"
+            Source="/Image/Tables3.png"
             Grid.Row="2"
-            Stretch="Fill"/>
+            Stretch="Fill" 
+            Height="326"/>
         </Button>
 
         <Button
@@ -87,9 +90,10 @@
             Grid.Column="3"
             Grid.Row="2">
             <Image 
-            Source="/Image/Table4.png"
+            Source="/Image/Tables4.png"
             Grid.Row="2"
-            Stretch="Fill"/>
+            Stretch="Fill"
+            Height="326"/>
         </Button>
 
         <Button
@@ -100,9 +104,10 @@
             Grid.Column="4"
             Grid.Row="2">
             <Image 
-            Source="/Image/Table5.png"
+            Source="/Image/Tables5.png"
             Grid.Row="2"
-            Stretch="Fill"/>
+            Stretch="Fill" 
+            Height="326"/>
         </Button>
     </Grid>
 </Window>

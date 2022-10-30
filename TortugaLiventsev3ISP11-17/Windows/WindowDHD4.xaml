@@ -1,11 +1,11 @@
-﻿<Window x:Class="TortugaLiventsev3ISP11_17.Windows.DescriptionWindow"
+﻿<Window x:Class="TortugaLiventsev3ISP11_17.Windows.WindowDHD4"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
         mc:Ignorable="d"
-        Title="DescriptionWindow" 
+        Title="WindowDHD4" 
         Height="500" 
         Width="910">
     <Grid
@@ -20,9 +20,12 @@
             <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
 
-        
+        <Image 
+            Source="/Image/lagman.png" 
+            Grid.RowSpan="2"/>
+
         <Button 
-                x:Name="btnExittt"
+                x:Name="btnExitInf3"
                 Content="Exit"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
@@ -30,45 +33,48 @@
                 Height="30"
                 FontSize="20"
                 Grid.RowSpan="2"
-                Click="btnExittt_Click" 
+                Click="btnExitInf3_Click" 
                 Margin="10,10,0,0"/>
 
         <TextBlock
-                   Text="Информация:&#xA;
-Список ингридиентов:&#xA; 
-Кол-во грамм:&#xA;"
+                   Text=" &#xA; Информация:  Лагман.&#xA;
+Список ингридиентов:  рыба, лук репчатый, огурцы, помидоры, морковь, перец болгарский,&#xA; томат-паста, масло подсолнечное, перец чёрный молотый, соль.&#xA;
+Кол-во грамм:  185&#xA;"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
                    Foreground="Black"
-                   FontSize="22"  
-                   Grid.Row="2" 
-                   Height="112"
-                   Width="700" 
-                   Margin="0,0.2,0,201.4"
-                   Grid.RowSpan="2"/>
+                   FontSize="20"  
+                   Grid.Row="1" 
+                   Height="192"
+                   Width="894" 
+                   Margin="0,94.6,0,161.4"
+                   Grid.RowSpan="3"/>
 
         <TextBlock
-                   Text="&#xA;Все наши продукты дважды проверяются перед тем, как покинуть склад и&#xA;отправиться на кухню. 
-  &#xA;Если вы обнаружили что-то не то, свяжитесь по горячей линии."
+                   Text="&#xA; Все наши продукты дважды проверяются перед тем, как покинуть склад и отправиться на кухню. 
+  &#xA; Если вы обнаружили что-то не то, свяжитесь по горячей линии. 
+  &#xA; Найти контакты можно в разделе 'Информация'."
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    Foreground="Black"
                    FontSize="18"  
                    Grid.Row="3" 
                    Height="110"
-                   Width="792" 
-                   Margin="10,36.2,102,55.4"/>
+                   Width="884" 
+                   Margin="10,36.2,10,55.4"/>
 
         <Button
-            x:Name="btnNTWindow"
-            Content="Перейти в корзину"
+            x:Name="btnWindow4"
+            Content="Далее"
             Width="200"
             Height="40"
             FontSize="20"
             Background="#FA4A0C" 
             Foreground="White"
-            Click="btnNTWindow_Click"  
+            Click="btnWindow3_Click"  
             Grid.Row="3"
             Margin="252,151.2,252,10.4"/>
     </Grid>
 </Window> 
+
+

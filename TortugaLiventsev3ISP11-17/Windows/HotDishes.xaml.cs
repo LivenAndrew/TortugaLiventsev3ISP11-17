@@ -61,5 +61,11 @@ namespace TortugaLiventsev3ISP11_17.Windows
             menuWindow.Show();
             this.Close();
         }
+
+        private void btnInfoHotDishes_Click(object sender, RoutedEventArgs e)
+        {
+            WindowDescriptionHD descriptionwindow = new WindowDescriptionHD();
+            descriptionwindow.Show();
+        }
     }
 }

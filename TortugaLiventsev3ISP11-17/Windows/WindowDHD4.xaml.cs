@@ -15,19 +15,26 @@ using System.Windows.Shapes;
 namespace TortugaLiventsev3ISP11_17.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для BucketWindow.xaml
+    /// Логика взаимодействия для WindowDHD4.xaml
     /// </summary>
-    public partial class BucketWindow : Window
+    public partial class WindowDHD4 : Window
     {
-        public BucketWindow()
+        public WindowDHD4()
         {
             InitializeComponent();
         }
 
-        private void btnNextttWindow_Click(object sender, RoutedEventArgs e)
+        private void btnExitInf3_Click(object sender, RoutedEventArgs e)
         {
-           OrderPaymentWindow orderpaymentWindow = new OrderPaymentWindow();
-           orderpaymentWindow.Show();
+            WindowDHD3 hotdishes3 = new WindowDHD3();
+            hotdishes3.Show();
+            this.Close();
+        }
+
+        private void btnWindow3_Click(object sender, RoutedEventArgs e)
+        {
+            WindowDHD5 hotdishes5 = new WindowDHD5();
+            hotdishes5.Show();
         }
     }
 }
