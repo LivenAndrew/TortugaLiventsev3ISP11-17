@@ -32,6 +32,19 @@
             Grid.RowSpan="3"/>
         
         <Button 
+            x:Name="btnInfoPizza"
+            Content="Info"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Width="50"
+            Height="30" 
+            Background="#FA4A0C" 
+            FontSize="18"
+            Margin="98.8,49,0,31.4" 
+            Click="btnInfoPizza_Click" 
+            Grid.Column="4"/>
+        
+        <Button 
                 x:Name="btnExs"
                 Content="Exit"
                 HorizontalAlignment="Left"

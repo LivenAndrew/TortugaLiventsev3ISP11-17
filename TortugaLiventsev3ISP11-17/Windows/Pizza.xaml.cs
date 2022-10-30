@@ -41,5 +41,11 @@ namespace TortugaLiventsev3ISP11_17.Windows
             menuWindow.Show();
             this.Close();
         }
+
+        private void btnInfoPizza_Click(object sender, RoutedEventArgs e)
+        {
+            WindowPiz1 windowpiz1 = new WindowPiz1();
+            windowpiz1.Show();
+        }
     }
 }

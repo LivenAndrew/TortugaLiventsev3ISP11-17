@@ -142,6 +142,15 @@
     <Compile Include="Windows\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\WindowDes1.xaml.cs">
+      <DependentUpon>WindowDes1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowDes2.xaml.cs">
+      <DependentUpon>WindowDes2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowDes3.xaml.cs">
+      <DependentUpon>WindowDes3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\WindowDescriptionHD.xaml.cs">
       <DependentUpon>WindowDescriptionHD.xaml</DependentUpon>
     </Compile>
@@ -156,6 +165,12 @@
     </Compile>
     <Compile Include="Windows\WindowDHD5.xaml.cs">
       <DependentUpon>WindowDHD5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowPiz1.xaml.cs">
+      <DependentUpon>WindowPiz1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowPiz2.xaml.cs">
+      <DependentUpon>WindowPiz2.xaml</DependentUpon>
     </Compile>
     <Page Include="Windows\BucketWindow.xaml">
       <SubType>Designer</SubType>
@@ -213,6 +228,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\WindowDes1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowDes2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowDes3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\WindowDescriptionHD.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -230,6 +257,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\WindowDHD5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowPiz1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowPiz2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
