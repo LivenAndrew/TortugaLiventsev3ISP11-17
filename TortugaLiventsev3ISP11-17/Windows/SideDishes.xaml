@@ -30,6 +30,19 @@
             Grid.ColumnSpan="5"
             Stretch="Fill" 
             Grid.RowSpan="3"/>
+        
+        <Button 
+            x:Name="btnInfoSideDishes"
+            Content="Info"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Width="50"
+            Height="30" 
+            Background="#FA4A0C" 
+            FontSize="18"
+            Margin="98.8,49,0,31.4" 
+            Click="btnInfoSideDishes_Click" 
+            Grid.Column="4"/>
 
         <Button 
                 x:Name="btnExs"

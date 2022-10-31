@@ -60,5 +60,11 @@ namespace TortugaLiventsev3ISP11_17.Windows
             menuWindow.Show();
             this.Close();
         }
+
+        private void btnInfoDinks_Click(object sender, RoutedEventArgs e)
+        {
+            WindowNapit1 windownapit1 = new WindowNapit1();
+            windownapit1.Show();
+        }
     }
 }

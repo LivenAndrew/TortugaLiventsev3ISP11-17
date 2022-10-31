@@ -106,6 +106,19 @@
             Grid.Row="2"
             Stretch="Fill"/>
         </Button>
+        
+        <Button 
+            x:Name="btnInfoDinks"
+            Content="Info"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Width="50"
+            Height="30" 
+            Background="#FA4A0C" 
+            FontSize="18"
+            Margin="98.8,49,0,31.4" 
+            Click="btnInfoDinks_Click" 
+            Grid.Column="4"/>
 
         <Button
             x:Name="fanta"

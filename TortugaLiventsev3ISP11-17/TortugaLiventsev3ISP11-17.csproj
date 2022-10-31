@@ -166,11 +166,41 @@
     <Compile Include="Windows\WindowDHD5.xaml.cs">
       <DependentUpon>WindowDHD5.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\WindowNapit1.xaml.cs">
+      <DependentUpon>WindowNapit1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowNapit2.xaml.cs">
+      <DependentUpon>WindowNapit2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowNapit3.xaml.cs">
+      <DependentUpon>WindowNapit3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowNapit4.xaml.cs">
+      <DependentUpon>WindowNapit4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowNapit5.xaml.cs">
+      <DependentUpon>WindowNapit5.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\WindowPiz1.xaml.cs">
       <DependentUpon>WindowPiz1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\WindowPiz2.xaml.cs">
       <DependentUpon>WindowPiz2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowSide1.xaml.cs">
+      <DependentUpon>WindowSide1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowSide2.xaml.cs">
+      <DependentUpon>WindowSide2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowSide3.xaml.cs">
+      <DependentUpon>WindowSide3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowSide4.xaml.cs">
+      <DependentUpon>WindowSide4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowSide5.xaml.cs">
+      <DependentUpon>WindowSide5.xaml</DependentUpon>
     </Compile>
     <Page Include="Windows\BucketWindow.xaml">
       <SubType>Designer</SubType>
@@ -260,11 +290,51 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\WindowNapit1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowNapit2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowNapit3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowNapit4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowNapit5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\WindowPiz1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\WindowPiz2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowSide1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowSide2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowSide3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowSide4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowSide5.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

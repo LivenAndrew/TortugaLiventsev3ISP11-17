@@ -1,0 +1,78 @@
+﻿<Window x:Class="TortugaLiventsev3ISP11_17.Windows.WindowNapit4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
+        mc:Ignorable="d"
+        Title="WindowNapit4" 
+        Height="500" 
+        Width="910">
+    <Grid
+    Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+
+        <Image 
+            Source="/Image/waterpit.png" 
+            Grid.RowSpan="2"/>
+
+        <Button 
+                x:Name="btnExitNapit4"
+                Content="Exit"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Width="50"
+                Height="30"
+                FontSize="20"
+                Grid.RowSpan="2"
+                Click="btnExitNapit4_Click" 
+                Margin="10,10,0,0"/>
+
+        <TextBlock
+                  Text=" &#xA; Информация:  Безалкогольный напиток 'Вода обычная'.&#xA;
+Список ингридиентов: Обычная питевая вода.&#xA;
+Кол-во грамм:  500&#xA;"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"
+                   Foreground="Black"
+                   FontSize="20"  
+                   Grid.Row="1" 
+                   Height="192"
+                   Width="894" 
+                   Margin="0,94.6,0,161.4"
+                   Grid.RowSpan="3"/>
+
+        <TextBlock
+                   Text="&#xA; Все наши продукты дважды проверяются перед тем, как покинуть склад и отправиться на кухню. 
+  &#xA; Если вы обнаружили что-то не то, свяжитесь по горячей линии. 
+  &#xA; Найти контакты можно в разделе 'Информация'."
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Foreground="Black"
+                   FontSize="18"  
+                   Grid.Row="3" 
+                   Height="110"
+                   Width="884" 
+                   Margin="10,36.2,10,55.4"/>
+
+        <Button
+            x:Name="btnWinNap4"
+            Content="Далее"
+            Width="200"
+            Height="40"
+            FontSize="20"
+            Background="#FA4A0C" 
+            Foreground="White"
+            Click="btnWinNap4_Click"  
+            Grid.Row="3"
+            Margin="252,151.2,252,10.4"/>
+    </Grid>
+</Window> 
