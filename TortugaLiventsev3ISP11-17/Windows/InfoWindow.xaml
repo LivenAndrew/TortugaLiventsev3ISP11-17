@@ -19,13 +19,14 @@
 
         <Button 
                 x:Name="btnExitMain"
-                Content="Exit"
+                Content="Назад"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
-                Width="50"
+                Width="80"
                 Height="30"
                 FontSize="20"
                 Grid.RowSpan="2"
+                Background="#FA4A0C"
                 Click="btnExitMain_Click" 
                 Margin="10,10,0,0"/>
 
@@ -46,7 +47,7 @@
 Рязанский проспект, 10c2, г. Москва, Россия&#xA;
 Email:  Inf.tdp@gmail.com&#xA;
 Tелефон:  +7 (999) 926-44-51​&#xA;
-WhatsApp:  +7 (999) 926-44-51&#xA;&#xA;По всем интересующимся вопросам обращайтесь!" 
+WhatsApp:  +7 (999) 926-44-51&#xA;&#xA; По всем интересующимся вопросам обращайтесь!" 
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    Foreground="White"
