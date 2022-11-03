@@ -23,7 +23,6 @@ namespace TortugaLiventsev3ISP11_17.Windows
         {
             InitializeComponent();
         }
-
         private void btnExitMain_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainwindow = new MainWindow();
