@@ -23,7 +23,6 @@ namespace TortugaLiventsev3ISP11_17.Windows
         {
             InitializeComponent();
         }
-
         private void btnNextttWindow_Click(object sender, RoutedEventArgs e)
         {
            OrderPaymentWindow orderpaymentWindow = new OrderPaymentWindow();
