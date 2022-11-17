@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TortugaLiventsev3ISP11_17.Windows"
         mc:Ignorable="d"
-         Height="500" 
+        Height="500" 
         Width="950"
         WindowStartupLocation="CenterScreen">
     <Grid 

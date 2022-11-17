@@ -28,6 +28,16 @@
             FontSize="25"  
             Foreground="Black"
             Grid.Row="1"/>
+        
+        <Button x:Name="btnNFWindow"
+                    Content="Перейти к оплате"
+                    Width="200"
+                    Height="40"
+                    FontSize="20"
+                    Background="#FA4A0C" 
+                    Foreground="White"
+                    Click="btnNFWindow_Click" 
+                    Grid.Row="5"/>
 
         <ListView 
             x:Name="Bucket"
