@@ -25,25 +25,25 @@ namespace TortugaLiventsev3ISP11_17.Windows
         }
         private void cheesecake_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void chocolatecake_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void tiramisy_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void btnExxits_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }

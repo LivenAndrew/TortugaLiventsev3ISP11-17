@@ -31,8 +31,8 @@ namespace TortugaLiventsev3ISP11_17.Windows
 
         private void btnNFWindow_Click(object sender, RoutedEventArgs e)
         {
-            ThanksWindow thankswindow = new ThanksWindow();
-            thankswindow.Show();
+            OrderPaymentWindow orderpaymentwindow = new OrderPaymentWindow();
+            orderpaymentwindow.Show();
             this.Close();
         }
     }

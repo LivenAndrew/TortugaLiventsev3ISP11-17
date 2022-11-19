@@ -25,38 +25,38 @@ namespace TortugaLiventsev3ISP11_17.Windows
         }
         private void cola_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void fanta_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void sprite_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void water_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void gaswater_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
 
         private void btnExits_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }

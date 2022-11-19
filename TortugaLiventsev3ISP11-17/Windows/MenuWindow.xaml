@@ -39,6 +39,19 @@
                 FontSize="18"
                 Margin="20,49,0,31.4" 
                 Click="btnEXx_Click"/>
+        
+        <Button 
+            x:Name="btnInfoBucket"
+            Content="Bucket"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Width="65"
+            Height="30" 
+            Background="#FA4A0C" 
+            FontSize="18"
+            Margin="98.8,49,0,31.4" 
+            Click="btnInfoBucket_Click" 
+            Grid.Column="4"/>
 
         <TextBlock 
                    Text="Выбор меню"

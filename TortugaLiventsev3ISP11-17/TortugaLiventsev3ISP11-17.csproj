@@ -112,6 +112,9 @@
     <Compile Include="Windows\BucketWindow.xaml.cs">
       <DependentUpon>BucketWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\ChoiceWindow.xaml.cs">
+      <DependentUpon>ChoiceWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\DessertsWindow.xaml.cs">
       <DependentUpon>DessertsWindow.xaml</DependentUpon>
     </Compile>
@@ -203,6 +206,10 @@
       <DependentUpon>WindowSide5.xaml</DependentUpon>
     </Compile>
     <Page Include="Windows\BucketWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ChoiceWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

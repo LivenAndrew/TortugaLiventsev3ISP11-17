@@ -70,6 +70,12 @@ namespace TortugaLiventsev3ISP11_17.Windows
             window1.Show();
             this.Close();
         }
+
+        private void btnInfoBucket_Click(object sender, RoutedEventArgs e)
+        {
+            BucketWindow bucketwindow = new BucketWindow();
+            bucketwindow.Show();
+        }
     }
 
 }

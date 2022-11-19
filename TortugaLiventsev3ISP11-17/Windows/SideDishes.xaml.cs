@@ -26,37 +26,37 @@ namespace TortugaLiventsev3ISP11_17.Windows
 
         private void ricevegetable_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void potatosoev_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void pasta_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void ratatue_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void potatoefri_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
         private void btnExs_Click(object sender, RoutedEventArgs e)
         {
-            MenuWindow menuWindow = new MenuWindow();
+            ChoiceWindow menuWindow = new ChoiceWindow();
             menuWindow.Show();
             this.Close();
         }
